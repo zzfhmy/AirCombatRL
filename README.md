@@ -1,7 +1,3 @@
-# Light Aircraft Game: A lightweight, scalable, gym-wrapped aircraft competitive environment with baseline reinforcement learning algorithms
-We provide a competitive environment for red and blue aircrafts games, which includes single control setting, 1v1 setting and 2v2 setting. The flight dynamics based on JSBSIM, and missile dynamics based on our implementation of proportional guidance. We also provide ppo and mappo implementation for self-play or vs-baseline training. 
-
-![fromework](assets/framework.jpg)
 
 ## Install 
 
@@ -67,13 +63,6 @@ It can be adapted to other tasks by modifying a few parameter settings.
 The description of parameter setting refers to `config.py`.
 Note that we set parameters `--use-selfplay --selfplay-algorithm --n-choose-opponents --use-eval --n-eval-rollout-threads --eval-interval --eval-episodes` in selfplay-setting training. `--use-prior` is only set true for shoot missile tasks.
 We use wandb to track the training process. If you set `--use-wandb`, please replace the `--wandb-name` with your name. 
-
-### Evaluate and Render
-```bash
-cd renders
-python render*.py
-```
-This will generate a `*.acmi` file. We can use [**TacView**](https://www.tacview.net/), a universal flight analysis tool, to open the file and watch the render videos.
 
 ## Citing
 If you find this repo useful, pleased use the following citation:
