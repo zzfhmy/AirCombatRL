@@ -1,0 +1,32 @@
+2024-06-10 21:37:41,062 INFO    StreamThr :38216 [internal.py:wandb_internal():85] W&B internal server running at pid: 38216, started at: 2024-06-10 21:37:41.061872
+2024-06-10 21:37:41,062 DEBUG   HandlerThread:38216 [handler.py:handle_request():158] handle_request: status
+2024-06-10 21:37:41,069 INFO    WriterThread:38216 [datastore.py:open_for_write():87] open: E:\code\论文代码\aircombat\Aircombat_RL\scripts\results\SingleCombat\1v1\NoWeapon\SelfplayContinuousAction\ppo\RNN+VCHSE+CMA\wandb\run-20240610_213741-0g2et1rz\run-0g2et1rz.wandb
+2024-06-10 21:37:41,070 DEBUG   SenderThread:38216 [sender.py:send():378] send: header
+2024-06-10 21:37:41,070 DEBUG   SenderThread:38216 [sender.py:send():378] send: run
+2024-06-10 21:37:42,179 INFO    SenderThread:38216 [dir_watcher.py:__init__():211] watching files in: E:\code\论文代码\aircombat\Aircombat_RL\scripts\results\SingleCombat\1v1\NoWeapon\SelfplayContinuousAction\ppo\RNN+VCHSE+CMA\wandb\run-20240610_213741-0g2et1rz\files
+2024-06-10 21:37:42,179 INFO    SenderThread:38216 [sender.py:_start_run_threads():1123] run started: 0g2et1rz with start time 1718026661.062869
+2024-06-10 21:37:42,186 DEBUG   HandlerThread:38216 [handler.py:handle_request():158] handle_request: check_version
+2024-06-10 21:37:42,186 DEBUG   SenderThread:38216 [sender.py:send_request():405] send_request: check_version
+2024-06-10 21:37:42,780 DEBUG   HandlerThread:38216 [handler.py:handle_request():158] handle_request: run_start
+2024-06-10 21:37:42,799 DEBUG   HandlerThread:38216 [system_info.py:__init__():26] System info init
+2024-06-10 21:37:42,800 DEBUG   HandlerThread:38216 [system_info.py:__init__():41] System info init done
+2024-06-10 21:37:42,800 INFO    HandlerThread:38216 [system_monitor.py:start():194] Starting system monitor
+2024-06-10 21:37:42,800 INFO    SystemMonitor:38216 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-10 21:37:42,800 INFO    HandlerThread:38216 [system_monitor.py:probe():214] Collecting system info
+2024-06-10 21:37:42,806 INFO    SystemMonitor:38216 [interfaces.py:start():188] Started cpu monitoring
+2024-06-10 21:37:42,808 INFO    SystemMonitor:38216 [interfaces.py:start():188] Started disk monitoring
+2024-06-10 21:37:42,808 INFO    SystemMonitor:38216 [interfaces.py:start():188] Started gpu monitoring
+2024-06-10 21:37:42,822 INFO    SystemMonitor:38216 [interfaces.py:start():188] Started memory monitoring
+2024-06-10 21:37:42,831 INFO    SystemMonitor:38216 [interfaces.py:start():188] Started network monitoring
+2024-06-10 21:37:42,839 DEBUG   HandlerThread:38216 [system_info.py:probe():150] Probing system
+2024-06-10 21:37:42,839 DEBUG   HandlerThread:38216 [system_info.py:probe():198] Probing system done
+2024-06-10 21:37:42,839 DEBUG   HandlerThread:38216 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.8.19', 'heartbeatAt': '2024-06-10T13:37:42.839017', 'startedAt': '2024-06-10T13:37:41.052942', 'docker': None, 'cuda': None, 'args': ('--env-name', 'SingleCombat', '--algorithm-name', 'ppo', '--scenario-name', '1v1/NoWeapon/SelfplayContinuousAction', '--experiment-name', 'RNN+VCHSE+CMA', '--seed', '2', '--n-training-threads', '1', '--n-rollout-threads', '2', '--cuda', '--log-interval', '1', '--save-interval', '1', '--use-selfplay', '--selfplay-algorithm', 'fsp', '--n-choose-opponents', '1', '--use-eval', '--n-eval-rollout-threads', '1', '--eval-interval', '1', '--eval-episodes', '1', '--num-mini-batch', '5', '--buffer-size', '300', '--num-env-steps', '1e8', '--lr', '3e-4', '--gamma', '0.99', '--ppo-epoch', '4', '--clip-params', '0.2', '--max-grad-norm', '2', '--entropy-coef', '1e-3', '--hidden-size', '128 128', '--act-hidden-size', '128 128', '--recurrent-hidden-size', '128', '--recurrent-hidden-layers', '1', '--data-chunk-length', '8', '--user-name', 'zzf', '--use-wandb', '--wandb-name', 'air514', '--use-multivar'), 'state': 'running', 'program': 'train/train_jsbsim.py', 'codePathLocal': 'train\\train_jsbsim.py', 'codePath': 'train\\train_jsbsim.py', 'host': 'zzf', 'username': 'zzf', 'executable': 'C:\\Users\\zzf\\.conda\\envs\\jsbsim\\python.exe', 'cpu_count': 12, 'cpu_count_logical': 20, 'cpu_freq': {'current': 2100.0, 'min': 0.0, 'max': 2100.0}, 'cpu_freq_per_core': [{'current': 2100.0, 'min': 0.0, 'max': 2100.0}], 'disk': {'/': {'total': 476.92284774780273, 'used': 165.25918197631836}}, 'gpu': 'NVIDIA GeForce RTX 3060 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060 Ti', 'memory_total': 8589934592}], 'memory': {'total': 31.81780242919922}}
+2024-06-10 21:37:42,839 INFO    HandlerThread:38216 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-10 21:37:42,839 INFO    HandlerThread:38216 [system_monitor.py:probe():227] Publishing system info
+2024-06-10 21:37:42,839 DEBUG   HandlerThread:38216 [system_info.py:_save_conda():207] Saving list of conda packages installed into the current environment
+2024-06-10 21:37:43,185 INFO    Thread-12 :38216 [dir_watcher.py:_on_file_created():271] file/dir created: E:\code\论文代码\aircombat\Aircombat_RL\scripts\results\SingleCombat\1v1\NoWeapon\SelfplayContinuousAction\ppo\RNN+VCHSE+CMA\wandb\run-20240610_213741-0g2et1rz\files\conda-environment.yaml
+2024-06-10 21:37:44,814 INFO    cpu       :38216 [interfaces.py:monitor():138] Process cpu has exited.
+2024-06-10 21:37:44,814 DEBUG   SystemMonitor:38216 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-10 21:37:44,815 DEBUG   SystemMonitor:38216 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-10 21:37:44,815 DEBUG   SystemMonitor:38216 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-10 21:37:45,819 INFO    MainThread:38216 [internal.py:handle_exit():75] Internal process exited

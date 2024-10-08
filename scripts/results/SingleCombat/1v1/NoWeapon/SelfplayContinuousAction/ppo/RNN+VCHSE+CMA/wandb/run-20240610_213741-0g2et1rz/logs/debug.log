@@ -1,0 +1,23 @@
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Current SDK version is 0.17.0
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Configure stats pid to 72628
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Loading settings from C:\Users\zzf\.config\wandb\settings
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Loading settings from E:\code\论文代码\aircombat\Aircombat_RL\scripts\wandb\settings
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'train\\train_jsbsim.py', 'program_abspath': 'E:\\code\\论文代码\\aircombat\\Aircombat_RL\\scripts\\train\\train_jsbsim.py', 'program': 'train/train_jsbsim.py'}
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-10 21:37:41,055 INFO    MainThread:72628 [wandb_init.py:_log_setup():520] Logging user logs to E:\code\论文代码\aircombat\Aircombat_RL\scripts\results\SingleCombat\1v1\NoWeapon\SelfplayContinuousAction\ppo\RNN+VCHSE+CMA\wandb\run-20240610_213741-0g2et1rz\logs\debug.log
+2024-06-10 21:37:41,056 INFO    MainThread:72628 [wandb_init.py:_log_setup():521] Logging internal logs to E:\code\论文代码\aircombat\Aircombat_RL\scripts\results\SingleCombat\1v1\NoWeapon\SelfplayContinuousAction\ppo\RNN+VCHSE+CMA\wandb\run-20240610_213741-0g2et1rz\logs\debug-internal.log
+2024-06-10 21:37:41,056 INFO    MainThread:72628 [wandb_init.py:init():560] calling init triggers
+2024-06-10 21:37:41,056 INFO    MainThread:72628 [wandb_init.py:init():567] wandb.init called with sweep_config: {}
+config: {'env_name': 'SingleCombat', 'algorithm_name': 'ppo', 'experiment_name': 'RNN+VCHSE+CMA', 'seed': 2, 'cuda': True, 'n_training_threads': 1, 'n_rollout_threads': 2, 'num_env_steps': 100000000.0, 'model_dir': None, 'use_wandb': True, 'user_name': 'zzf', 'wandb_name': 'air514', 'gamma': 0.99, 'buffer_size': 300, 'use_proper_time_limits': False, 'use_gae': True, 'gae_lambda': 0.95, 'hidden_size': '128 128', 'action_dim': '4', 'act_hidden_size': '128 128', 'activation_id': 1, 'use_feature_normalization': False, 'gain': 0.01, 'use_prior': False, 'use_recurrent_policy': True, 'recurrent_hidden_size': 128, 'recurrent_hidden_layers': 1, 'data_chunk_length': 8, 'lr': 0.0003, 'ppo_epoch': 4, 'clip_param': 0.2, 'use_clipped_value_loss': False, 'num_mini_batch': 5, 'value_loss_coef': 1, 'entropy_coef': 0.001, 'use_max_grad_norm': True, 'max_grad_norm': 2.0, 'use_multivar': True, 'use_gmm': False, 'gmm_component': 4, 'use_inter_kl': False, 'inter_kl_coef': 0.1, 'use_cos_schedule': False, 'use_selfplay': True, 'selfplay_algorithm': 'fsp', 'n_choose_opponents': 1, 'init_elo': 1000.0, 'save_interval': 1, 'log_interval': 1, 'use_eval': True, 'n_eval_rollout_threads': 1, 'eval_interval': 1, 'eval_episodes': 1, 'render_opponent_index': 'latest', 'render_index': 'latest', 'scenario_name': '1v1/NoWeapon/SelfplayContinuousAction'}
+2024-06-10 21:37:41,056 INFO    MainThread:72628 [wandb_init.py:init():610] starting backend
+2024-06-10 21:37:41,056 INFO    MainThread:72628 [wandb_init.py:init():614] setting up manager
+2024-06-10 21:37:41,060 INFO    MainThread:72628 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-06-10 21:37:41,062 INFO    MainThread:72628 [wandb_init.py:init():622] backend started and connected
+2024-06-10 21:37:41,069 INFO    MainThread:72628 [wandb_init.py:init():711] updated telemetry
+2024-06-10 21:37:41,069 INFO    MainThread:72628 [wandb_init.py:init():744] communicating run to backend with 90.0 second timeout
+2024-06-10 21:37:42,185 INFO    MainThread:72628 [wandb_run.py:_on_init():2396] communicating current version
+2024-06-10 21:37:42,775 INFO    MainThread:72628 [wandb_run.py:_on_init():2405] got version response upgrade_message: "wandb version 0.17.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-10 21:37:42,775 INFO    MainThread:72628 [wandb_init.py:init():795] starting run threads in backend
