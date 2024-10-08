@@ -17,7 +17,7 @@ from envs.JSBSim.envs import SingleCombatEnv, SingleControlEnv, MultipleCombatEn
 from envs.env_wrappers import SubprocVecEnv, DummyVecEnv, ShareSubprocVecEnv, ShareDummyVecEnv
 
 # import os
-# os.environ["WANDB_API_KEY"] = "b97c1b2327cb3b3c2136256166106fd619fee28d"
+# os.environ["WANDB_API_KEY"] = ""
 # os.environ["WANDB_MODE"] = "offline"
 
 def make_train_env(all_args):

@@ -83,11 +83,11 @@ class PPOTrainer():
             # 计算intrinsic_reward
             if self.use_state_reward:
                 if self.use_vcse : 
-                    intrinsic_reward = self.compute_intr_reward_vcse(obs_batch, extr_values)
+                    intrinsic_reward = self.compute_intr_reward_vcse(rnn_states_actor_batch, extr_values)
                     self.s_ent_stats.update(intrinsic_reward)
                     #intrinsic_reward = intrinsic_reward / self.s_ent_stats.std
                 else :
-                    intrinsic_reward = self.compute_intr_reward_se(obs_batch)
+                    intrinsic_reward = self.compute_intr_reward_se(rnn_states_actor_batch)
                     self.s_ent_stats.update(intrinsic_reward)
                     intrinsic_reward = intrinsic_reward / self.s_ent_stats.mean
                 returns_batch = returns_batch + intrinsic_reward

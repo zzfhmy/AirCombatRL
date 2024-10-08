@@ -76,8 +76,8 @@ render = True
 ego_policy_index = 10
 enm_policy_index = 0
 episode_rewards = 0
-ego_run_dir = "/home/user/documents/zzf/aircombat/Aircambat-RL/scripts/results/SingleCombat/1v1/NoWeapon/SelfplayContinuousAction/ppo/ourppo/wandb/run-20240607_094842-ibe7rwz8/files"
-enm_run_dir = "/home/user/documents/zzf/aircombat/Aircambat-RL/scripts/results/SingleCombat/1v1/NoWeapon/SelfplayContinuousAction/ppo/ourppo/wandb/run-20240607_094842-ibe7rwz8/files"
+ego_run_dir = ""
+enm_run_dir = ""
 experiment_name = ego_run_dir.split('/')[-4]
 
 env = SingleCombatEnv("1v1/NoWeapon/SelfplayContinuousAction")
